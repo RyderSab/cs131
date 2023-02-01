@@ -1,0 +1,12 @@
+    1  wget www.github.com
+    2  cd Desktop
+    3  cd Users
+    4  clear
+    5  passwd
+    6  mkdir CS131
+    7  1s
+    8  ls
+    9  git init cs131
+   10  mkdir ws1
+   11  history > cmd.logs
+   12  history > cmds.log
