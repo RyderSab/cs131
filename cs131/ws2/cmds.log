@@ -1,0 +1,258 @@
+    1  wget www.github.com
+    2  cd Desktop
+    3  cd Users
+    4  clear
+    5  passwd
+    6  mkdir CS131
+    7  1s
+    8  ls
+    9  git init cs131
+   10  mkdir ws1
+   11  history > cmd.logs
+   12  history > cmds.log
+   13  clear line
+   14  -x
+   15  wget www.github.com
+   16  git init <cs131>
+   17  git init cs131
+   18  mkdir ws1 
+   19  find ws1
+   20  dirname ws1
+   21  mv ws1 /mnt/scratch/ryder23sp/cs131/,git/
+   22  cd /mnt/scratch/ryder23sp/cs131/.git/ws1/
+   23  cd ws1
+   24  cd .git
+   25  cd cs131
+   26  git init 
+   27  cd 
+   28  cd cs131
+   29  cd .git
+   30  mkdir ws1
+   31  cd ws1
+   32  history > cmds.log
+   33  find cmds.log
+   34  git add cmds.log
+   35  cd/
+   36  cd cd mnt
+   37  cd /mnt/
+   38  cd /scratch/
+   39  cd scratch
+   40  cd ryder23sp
+   41  git init-b cs131
+   42  git init -b cs131
+   43  cd cs131.git
+   44  rename:/mnt/scratch/ryder23sp/ .git cs131.git 
+   45  rename /mnt.scratch/ryder23sp/ .git cs131.git
+   46  cs cs131.git
+   47  cd cs131.git
+   48  dir
+   49  git add cmds.logs
+   50  git add cmds.log
+   51  git commit
+   52  git config --global user.name RyderSab
+   53  git commit
+   54  git init
+   55  dir
+   56  git add cmds.log
+   57  git commit -m "first commit"
+   58  git help
+   59  cd .git
+   60  dir
+   61  cd cd /mnt/
+   62  cd /
+   63  cd ryder23dp
+   64  cd ryder23sp
+   65  cd cd mnt
+   66  clear
+   67  dir
+   68  git help
+   69  git init
+   70  git status
+   71  git add cmds.log
+   72  git commit -m second commit
+   73  pwd
+   74  dir
+   75  cd131
+   76  cd cs131
+   77  dir
+   78  mkdir ws1
+   79  cdws1
+   80  cs ws1
+   81  cd ws1
+   82  cd /
+   83  pwd
+   84  cd mnt
+   85  cd scratch
+   86  cd ryder23sp
+   87  cat index.html
+   88  ls -l indez.html
+   89  ls -l index.html
+   90  man
+   91  man rm
+   92  man ls
+   93  dir
+   94  rm cmd.logs
+   95  rm -r CS131
+   96  dir
+   97  rm index.html.l
+   98  rm index.html.1
+   99  dir
+  100  man ls
+  101  cd cs131
+  102  dir
+  103  rm .git
+  104  rm  -r .git
+  105  dir
+  106  rm git
+  107  rm -r .git
+  108  rm -r ,git
+  109  dir
+  110  cd ws1
+  111  dir
+  112  git init 
+  113  git config
+  114  git config RyderSab
+  115  git config --global user.name "RyderSab"
+  116  git status
+  117  git add .
+  118  git status
+  119  git add cmds.log
+  120  history > cmds.log
+  121  git add .
+  122  git ststus
+  123  git status
+  124  git commit-m "ws1"
+  125  git commit -m "ws1"
+  126  git config --global user.email rydersab@icloud.com
+  127  git commit --amend --reset author
+  128  git commit --amend --reset-author
+  129  dir
+  130  rm cmds.log
+  131  cd cs131
+  132  cd ws1
+  133  dir
+  134  git init
+  135  172.31.197.164
+  136  git ststus
+  137  git status
+  138  git add .
+  139  git status
+  140  git add cmds.log
+  141  git status
+  142  dir
+  143  history > cmds.log
+  144  git add .
+  145  git status
+  146  git commit -m "ws1"
+  147  git status
+  148  git remote add origin https://github.com/RyderSab/cs131.git
+  149  git clone 
+  150  git clone https://github.com/RyderSab/cs131.git
+  151  git branch -M main
+  152  git push -u origin main
+  153  gitpush -u origin main
+  154  git push -u origin main
+  155  nano
+  156  ls
+  157  cat Feb1.txt
+  158  nano Feb1.txt
+  159  man greao
+  160  man grep
+  161  mkdir vimsamples
+  162  cd vomsamples
+  163  cd vimsamples
+  164  vim vimpractice2
+  165  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  166  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+  167  cat > amazon_reviews_us_Books_v1_02.tsv
+  168  grep -i "verified" amazon_reviews_us_Books_v1_02.tsv
+  169  dir
+  170  touch verified.txt
+  171  dir
+  172  grep -i "verified" amazon_reviews_us_Books_v1_02.tsv > verfied.txt
+  173  cat verified.txt
+  174  readlink -f verified.txt
+  175  cat /mnt/scratch/ryder23sp/verified.txt
+  176  nano verified.txt
+  177  rm amazon_reviews_us_Books_v1_02.tsv
+  178  dir
+  179  rm verfied.txt
+  180  rm verified.txt
+  181  dir
+  182  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  183  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+  184  grep -i "verified" amazon_reviews_us_Books_v1_02.tsv
+  185  grep -v "verified" amazon_reviews_us_Books_v1_02.tsv
+  186  touch verified.txt
+  187  touch unverified.txt
+  188  grep -1 "verified" amazon_reviews_us_Books_v1_02.tsv > verified.txt
+  189  cat verified.txt
+  190  grep -i -v "verified" amazon_reviews_us_Books_v1_02.tsv > unverified.txt
+  191  wc verified.txt unverified.txt
+  192  touch count.txt
+  193  wc verified.txt unverified.txt > count.txt
+  194  cat count.txt
+  195  nano count.txt
+  196  cat count.txt
+  197  history > cmds.log
+  198  dir
+  199  cd cs131
+  200  dir
+  201  mkdir ws2
+  202  cd ws2
+  203  git add count.txt cmds.log
+  204  cd /
+  205  dir
+  206  cd mnt
+  207  cd scratch
+  208  cd ryder23sp
+  209  cd cs131
+  210  cd ryder23ap
+  211  cd /
+  212  cd mnt
+  213  cd scratch
+  214  cd ryder23sp
+  215  mv count.txt /ws2
+  216  mv count.txt ws2
+  217  mv cmds.log ws2
+  218  cd cs131
+  219  cd ws2
+  220  dir
+  221  cd/
+  222  cd /
+  223  cd mnt
+  224  cd scratch
+  225  cd ryder23sp
+  226  cd cs131
+  227  dir
+  228  cd ws2
+  229  dir
+  230  cd /
+  231  cd mnt
+  232  cd scratch
+  233  cd mnt
+  234  cd ryder23sp
+  235  dir
+  236  cd ws2
+  237  cd cs131
+  238  cd ws2
+  239  wget $ mv count.txt ws2
+  240  [ryder23sp@sjsu ~]$ mv cmds.log ws2
+  241  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  242  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+  243  touch count.txt
+  244  touch verified.txt
+  245  touch unverified.txt
+  246  grep -i "verified" amazon_reviews_us_Books_v1_02.tsv > verified.txt
+  247  grep -i -v "verified" amazon_reviews_us_Books_v1_02.tsv > unverified.tsv
+  248  wc verified.txt unverified.txt > count.txt
+  249  cat count.txt
+  250  grep -i -v "verified" amazon_reviews_us_Books_v1_02.tsv > unverified.tsv
+  251  cd cs131
+  252  cdws2
+  253  cd ws2
+  254  dir
+  255  grep -i -v "verified" amazon_reviews_us_Books_v1_02.tsv > unverified.txt
+  256  nano count.txt 
+  257  wc verified.txt unverified.txt > count.txt
+  258  history > cmds.log
