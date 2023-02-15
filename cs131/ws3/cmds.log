@@ -1,0 +1,27 @@
+  545  cut -f 2 amazon_reviews_us_Books_v1_02.tsv > sample.txt
+  546  cat sample.txt
+  547  sort -n sample.txt > sorted_IDs.txt
+  548  uniq -c sorted_IDs.txt > counted_IDs.txt
+  549  cat counted_IDs.txt
+  550  uniq -c -d sorted_IDs.txt > counted_IDs.txt
+  551  cat counted_IDs.txt 
+  552  sort -r -n counted_IDs.txt > final_IDs.txt
+  553  cat final_IDs.txt 
+  554  head final_IDs.txt 
+  555  head amazon_reviews_us_Books_v1_02.tsv 
+  556  cut -f 4 amazon_reviews_us_Books_v1_02.tsv > sample2.txt
+  557  head sample2.txt 
+  558  uniq -c -d sample2.txt > counted_pIDs.txt
+  559  sort -r -n sample2.txt > final_pIDs.txt
+  560  head final_pIDs.txt
+  561  sort -r -n counted_pIDs.txt > final_pIDs.txt
+  562  head final_pIDs.txt
+  563  head final_IDs.txt
+  564  head ws3.txt
+  565  head final_IDs.txt > ws3.txt
+  566  head ws3.txt
+  567  head final_pIDs >> ws3.txt
+  568  head final_pIDs.txt >> ws3.txt
+  569  cat ws3.txt 
+  570  nano ws3.txt
+  571  history > cmds.log
