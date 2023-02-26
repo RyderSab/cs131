@@ -1,0 +1,72 @@
+  755  l > ws4.txt
+  756  w > ws4.txt
+  757  l > ws4.txt
+  758  w >> ws4.txt
+  759  cat ws4.txt
+  760  mkdir CUSTOMERS
+  761  mkdir PRODUCTS
+  781  head amazon_reviews_us_Books_v1_02.tsv 
+  782  cut -f 2,9 amazon_reviews_us_Books_v1_02.tsv > customerID_helpful.txt
+  783  head customerID_helpful.txt 
+  784  sort -nr customerID_helpful.txt | uniq -cd > final_cIDs.txt
+  785  head final_cIDs.txt 
+  786  sort -nr customerID_helpful.txt | uniq -cd -f 2 >final_cIDs.txt 
+  787  head final_cIDs.txt 
+  788  head customerID_helpful.txt 
+  793  cat .bashrc 
+  799  nano .bashrc
+  800  script ws4.txt
+  802  cat customerID_helpful.txt 
+  803  sort -k 2nr customerID_helpful.txt > sorted.txt
+  804  head sorted.txt 
+  805  dir
+  806  rm -r customerID_helpful.txt CUSTOMERS final_cIDs.txt PRODUCTS sample.txt sorted.txt 
+  807  dir
+  808  head amazon_reviews_us_Books_v1_02.tsv 
+  809  mkdir CUSTOMERR
+  810  mkdir PRODUCTS
+  811  cut -f 2,9 amazon_reviews_us_Books_v1_02.tsv > helpfulVotes.txt
+  812  head helpfulVotes.txt 
+  813  sort -k 1 helpfulVotes.txt > sorted.txt
+  814  head sorted.txt 
+  815  uniq -w 8d > sorted2.txt
+  816  uniq -w 8 -d > sorted2.txt
+  817  cut -f 1 helpfulVotes.txt > ids.txt
+  818  uniq -c ids.txt > nIds.txt
+  819  sort -nr nIds.txt > nIDs2.txt
+  820  head nIDs2.txt 
+  821  grep 52948753 helpfulVotes.txt > helpfulVotes2.txt
+  822  head helpfulVotes.txt 
+  823  head helpfulVotes2.txt
+  824  cd CUSTOMERS
+  825  mv CUSTOMERR/ CUSTOMERS/
+  826  cd CUSTOMERS/
+  827  helpfulVotes2.txt > 52948753.txt
+  828  cd ..
+  829  helpfulVotes2.txt > CUSTOMERS/52948753.txt
+  830  cp helpfulVotes2.txt CUSTOMERS/52948753.txt 
+  831  cat CUSTOMERS/52948753.txt 
+  832  dir
+  833  head amazon_reviews_us_Books_v1_02.tsv 
+  834  cut -f 4,9 amazon_reviews_us_Books_v1_02.tsv > helpfulVotes3.txt
+  835  cut -f 1 helpfulVotes3.txt > PIds.txt
+  836  uniq -c PIds.txt > nPIds.txt
+  837  sort -nr nPIds.txt > nPIds2.txt
+  838  head nPIds2.txt
+  839  grep 043935806X helpfulVotes3.txt > helpfulVotes4.txt
+  840  head helpfulVotes4.txt
+  841   head nIDs2.txt
+  842  grep 043935806X helpfulVotes3.txt > PRODUCTS/043935806X.txt
+  843  cat PRODUCTS/043935806X.txt 
+  844  history > cmds.log
+  845  nano cmds.log
+  846  cat nPIds2.txt
+  847  head nPIds2.txt
+  848  head helpfulVote3.txt
+  849  head helpfulVotes3.txt
+  850  awk '{sum += $2} END {print sum}' CUSTOMERS/52948753.txt
+  851  head CUSTOMERS/52948753.txt 
+  852  awk '{sum += $2} END {print sum /6}' CUSTOMERS/52948753.txt 
+  853  wc -l PRODUCTS/043935806X.txt
+  854  awk '{sum += $2} END {print sum /4625}' PRODUCTS/043935806X.txt 
+  855  history > cmds.log
