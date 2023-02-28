@@ -1,0 +1,59 @@
+2) /mnt/scratch/ryder23sp
+3) uid=1060(ryder23sp) gid=1062(ryder23sp) groups=1062(ryder23sp)
+4) -bash: cd: temp: Permission denied
+a1.txt
+asciiTweets.csv
+cmds.log
+hashtags.txt
+temp
+temp3
+temp4
+tIDs.txt
+twitterHashtags.csv
+uIDs.txt
+uniqueHashtags.txt
+uniqueTIds.txt
+uniqueUIds.txt
+
+total 23824
+-rw-rw-r-- 1 ryder23sp ryder23sp     270 Feb 28 01:01 a1.txt
+-rw-rw-r-- 1 ryder23sp ryder23sp 7797170 Feb 28 00:16 asciiTweets.csv
+-rw-rw-r-- 1 ryder23sp ryder23sp    1663 Feb 28 00:44 cmds.log
+-rw-rw-r-- 1 ryder23sp ryder23sp 1212495 Feb 27 23:49 hashtags.txt
+drw-rw-r-- 2 ryder23sp ryder23sp    4096 Feb 27 22:40 temp
+drwxrwxr-x 2 ryder23sp ryder23sp    4096 Feb 27 23:00 temp3
+drwxrwxr-x 2 ryder23sp ryder23sp    4096 Feb 27 23:03 temp4
+-rw-rw-r-- 1 ryder23sp ryder23sp 2206983 Feb 28 00:25 tIDs.txt
+-rw-r--r-- 1 ryder23sp ryder23sp 7822180 Feb 27 23:30 twitterHashtags.csv
+-rw-rw-r-- 1 ryder23sp ryder23sp 1533623 Feb 28 00:19 uIDs.txt
+-rw-rw-r-- 1 ryder23sp ryder23sp 1927865 Feb 28 00:28 uniqueHashtags.txt
+-rw-rw-r-- 1 ryder23sp ryder23sp 1852967 Feb 28 00:26 uniqueTIds.txt
+-rw-rw-r-- 1 ryder23sp ryder23sp    8083 Feb 28 00:22 uniqueUIds.txt
+
+touch: cannot touch 'temp/test.txt': Permission denied
+
+5) You can mv to temp3, it creates a new directory called temp3
+
+cp: -r not specified; omitting directory 'temp3'
+
+To cp a directory, use the -r option
+
+6) meminfo holds info on the server memory, and cpuinfo holds info on the VM's cpu
+Alternatively, you can use lsmem and lscpu to find the info that you need
+
+7) There's 72Gb of memory, or about 73080640 kB according to lsmem
+
+8) There's 256 processors on this server.
+The name of the architecture is ppc64le
+the processor speed is 2.1 GHz or 3.5 GHz, but I think that the 3.5 is current speed and not the cpu's rated speed
+
+9) The twitter data set is about 7.5Gb and it has 110350 lines
+
+10) There's 57 tweets that have the hashtag "great"
+
+11) The twitter dataset has UTF-8 encoding
+
+13) There are 362 unique User Ids
+There are 66178 unique Tweet Ids
+There are 101804 unique Hashtags
+There are more hashtags than there are tweets

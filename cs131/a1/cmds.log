@@ -1,0 +1,66 @@
+
+2)
+  892  cd
+  893  pwd > cs131/a1/a1.txt
+
+3)
+  905  id >> a1.txt 
+
+4)
+  907  mkdir temp
+  909  chmod a-x temp 
+  911  cd temp 2>> a1.txt
+  913  ls >> a1.txt
+  919  ls -l >> a1.txt
+  921  touch temp/test.txt 2>> a1.txt
+5)
+  923  mkdir temp2
+  924  mv temp2 temp3 2>> a1.txt
+  927  ls -1 >> a1.txt
+  933  cp temp3 temp4 2>> a1.txt
+  935  cp -r temp3 temp4
+6) 
+  936  cd /
+  937  dir
+  938  cd proc
+  939  ls -l
+  940  ls -l | grep mem
+  941  ls -l | grep cpu 
+  942  head meminfo
+  943  head cpuinfo 
+  944  tail cpuinfo 
+  950  lscpu >> a1.txt 
+9)
+  955  cp /home/test/A1/downloaded_hashtags_extend.csv twitterHashtags.csv
+  958  ls -lh
+  959  wc -l twitterHashtags.csv 
+  962  ls -lh >> a1.txt
+  970  wc -l twitterHashtags.csv >> a1.txt
+10)
+  975  head twitterHashtags.csv 
+  978  cut -d , -f 2 twitterHashtags.csv > hashtags.txt 
+  979  head hashtags.txt 
+  980  grep -ic great >> a1.txt
+  981  grep -ic great hashtags.txt >> a1.txt
+11)
+  987  file -bi twitterHashtags.csv >> a1.txt
+12)
+  993  iconv -f UTF-8 -t ASCII//TRANSLIT twitterHashtags.csv > asciiTweets.csv 
+  994  head asciiTweets.csv 
+13)
+  995  cut -d , -f 1 twitterHashtags.csv > uIDs.txt
+  996  head uIDs.txt 
+  999  uniq -c uIDs.txt > uniqueUIds.txt 
+ 1000  head uniqueUIds.txt 
+ 1001  wc -l uniqueUIds.txt >> a1.txt 
+ 1004  cut -d , -f 4 twitterHashtags.csv > tIDs.txt
+ 1006  head tIDs.txt 
+ 1007  uniq -c tIDs.txt > uniqueTIds.txt
+ 1008  head uniqueTIds.txt 
+ 1009  wc -l uniqueTIds.txt >> a1.txt 
+ 1012  head hashtags.txt
+ 1013  uniq -c hashtags.txt > uniqueHashtags.txt
+ 1014  head uniqueHashtags.txt 
+ 1015  wc -l uniqueHashtags.txt >> a1.txt 
+ 1016  nano a1.txt 
+ 1017  history > cmds.log
