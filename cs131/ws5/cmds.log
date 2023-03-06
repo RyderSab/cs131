@@ -1,0 +1,22 @@
+ 1004  cut -f 2 amazon_reviews_us_Books_v1_02.tsv > ids.txt
+ 1006  uniq -c ids.txt > countedIDs.txt
+ 1008  sort -nr countedIDs.txt > sortedIDs.txt
+ 1011  mkdir ws5
+ 1012  cd ws5
+ 1013  mkdir CUSTOMERS
+ 1015  cp sortedIDs.txt cs131/ws5/sortedIDs.txt
+ 1021  cut -d ' ' -f 2 sortedIDs.txt > topIDs.txt 
+ 1026  cut -c 9-16 sortedIDs.txt > topIDs.txt 
+ 1029  touch reviewCrawler.sh
+ 1030  nano reviewCrawler.sh 
+ 1033  cp amazon_reviews_us_Books_v1_02.tsv cs131/ws5/amazon_reviews_us_Books_v1_02.tsv
+ 1036  head -n 200 topIDs.txt > 200IDs.txt
+ 1037  nano reviewCrawler.sh 
+ 1042  chmod a+x reviewCrawler.sh 
+ 1043  ./reviewCrawler.sh 
+ 1147  bg
+ 1152  fg
+ 1153  git add CUSTOMERS/
+ 1154  git commit -m "ws5"
+ 1155  git push
+ 1156  history > cmds.log
