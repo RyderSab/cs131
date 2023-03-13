@@ -1,0 +1,39 @@
+2)
+ 1004  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv retweets.tsv 
+ 1005  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv tweets.tsv
+ 1015  cut -f 2,6 tweets.tsv > replies.txt 
+ 1017  sort -k2 -nr replies.txt > sortedReplies.txt 
+ 1018  head sortedReplies.txt 
+ 1019  cut -f 2 sortedReplies.txt > repliedTweets.txt
+ 1020  head repliedTweets.txt 
+ 1021  uniq -c repliedTweets.txt > countedReplies.txt
+ 1022  head countedReplies.txt 
+ 1023  sort -nr countedReplies.txt > sortedCountedreplies.txt
+ 1024  head sortedCountedreplies.txt 
+ 1025  head -n 11 sortedCountedreplies.txt > answers.txt
+ 1027  nano answers.txt 
+3)
+ 1028  cut -f 2 retweets.tsv > retweetsIDs.tsv 
+ 1029  sort -nr retweetsIDs.tsv > sortedRIDs.txt
+ 1031  uniq -c sortedRIDs.txt > countedRIDs.txt
+ 1033  sort -nr countedRIDs.txt > sortedCountedRIDs.txt
+ 1035  head sortedCountedRIDs.txt >> answers.txt 
+ 1036  nano answers.txt 
+4)
+ 1040  cut -f 4 retweets.tsv > hashtags.txt
+ 1088  sort hashtags.txt > sortedHashtags.txt
+ 1091  head countedHashtags.txt 
+ 1092  sort -nr countedHashtags.txt > sortedCountedHashtags.txt 
+ 1094  head -n 31 sortedCountedHashtags.txt >> answers.txt 
+ 1095  nano answers.txt 
+1)
+ 1102  nano sortedReplies.txt
+ 1103  head -n 4788 sortedReplies.txt > sortedReplies2.txt
+ 1104  nano sortedReplies2.txt 
+ 1105  sort -k1 sortedReplies2.txt > sortedReplies3.txt
+ 1107  cut -f 1 sortedReplies3.txt > replyIDs.txt
+ 1109  uniq -c replyIDs.txt > countedReplies.txt 
+ 1111  sort -nr countedReplies.txt > sortedCountedReplies.txt
+ 1113  head sortedCountedReplies.txt >> answers.txt 
+ 1114  nano answers.txt 
+ 1115  history > cmds.log
