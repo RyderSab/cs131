@@ -1,0 +1,6 @@
+BEGIN { FS="\t" }
+{
+	if (length($6) != 0) 
+		print $6, $2
+	fi
+}
